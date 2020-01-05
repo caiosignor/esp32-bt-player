@@ -1,0 +1,7 @@
+# Automatically generated build file. Do not edit.
+COMPONENT_INCLUDES += /opt/espadf/esp-adf/components/esp-adf-libs_old/esp_audio/include /opt/espadf/esp-adf/components/esp-adf-libs_old/esp_codec/include/codec /opt/espadf/esp-adf/components/esp-adf-libs_old/esp_codec/include/processing /opt/espadf/esp-adf/components/esp-adf-libs_old/recorder_engine/include /opt/espadf/esp-adf/components/esp-adf-libs_old/esp_ssdp/include /opt/espadf/esp-adf/components/esp-adf-libs_old/esp_upnp/include /opt/espadf/esp-adf/components/esp-adf-libs_old/esp_sip/include /opt/espadf/esp-adf/components/esp-adf-libs_old/audio_misc/include
+COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/esp-adf-libs_old -lesp-adf-libs_old -L/opt/espadf/esp-adf/components/esp-adf-libs_old/esp_audio/lib -L/opt/espadf/esp-adf/components/esp-adf-libs_old/esp_codec/lib -L/opt/espadf/esp-adf/components/esp-adf-libs_old/recorder_engine/lib -L/opt/espadf/esp-adf/components/esp-adf-libs_old/esp_ssdp/lib -L/opt/espadf/esp-adf/components/esp-adf-libs_old/esp_upnp/lib -L/opt/espadf/esp-adf/components/esp-adf-libs_old/esp_sip/lib -lesp_processing -lesp_audio -lesp-amr -lesp-amrwbenc -lesp-aac -lesp-ogg-container -lesp-opus -lesp-tremor -lesp-flac -lesp_ssdp -lesp_upnp -lesp_sip -lesp-mp3 -lcodec-utils -lrecorder_engine 
+COMPONENT_LINKER_DEPS += 
+COMPONENT_SUBMODULES += 
+COMPONENT_LIBRARIES += esp-adf-libs_old
+component-esp-adf-libs_old-build: 

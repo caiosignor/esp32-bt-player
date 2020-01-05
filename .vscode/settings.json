@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "audio_event_iface.h": "c",
+        "audio_element.h": "c",
+        "audio_common.h": "c",
+        "esp_peripherals.h": "c",
+        "i2s_stream.h": "c",
+        "equalizer.h": "c",
+        "esp_equalizer.h": "c",
+        "esp_err.h": "c",
+        "audio_error.h": "c",
+        "audio_type_def.h": "c",
+        "task.h": "c",
+        "esp_log.h": "c"
+    }
+}
